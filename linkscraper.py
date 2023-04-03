@@ -23,7 +23,7 @@ for page in range(1,num_pages+1):
 
     for link in mp3_links:
         print(link)
-        with open('./links','a') as f:
+        with open('./links-py','a') as f:
             f.write(link)
             f.write('\n')
 
